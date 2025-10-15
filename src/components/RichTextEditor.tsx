@@ -1,7 +1,7 @@
  // src/components/RichTextEditor.tsx
 
 import React, { useState, useMemo } from 'react';
-//mport SimpleMDE from 'react-simplemde-editor';
+import SimpleMDE from 'react-simplemde-editor';
 import 'easymde/dist/easymde.min.css';
 import { Type, Code, FileText } from 'lucide-react';
 
